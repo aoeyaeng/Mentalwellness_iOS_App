@@ -1,0 +1,1124 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0277B4DF47A8413385B09EC6BFBFD821 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 36D20D7F9B5F1584044B1759C855D9F6 /* PrivacyInfo.xcprivacy */; };
+		0ABF927E9C3D6229823AEC42F16356E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		21522E8BAAE97772E92F3943202B758C /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC95A7132B292D873124EC5498F115D1 /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CF8801756AD09572F2467DA7B90BE9 /* Pods-Finaljingjing-FinaljingjingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A72ADF8EF392EFF42707C961DD3E207 /* Pods-Finaljingjing-FinaljingjingUITests-dummy.m */; };
+		42A16E9B81153EC301286D2F9F315EA9 /* Pods-Finaljingjing-FinaljingjingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3528AF81686B8B0379A7AD6304E0F467 /* Pods-Finaljingjing-FinaljingjingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A92BD6A7CC8DE76494A085164FE472 /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A58262904F5EF3EF28B4CE8AADAA5C /* NSImage+SwiftyGif.swift */; };
+		49C5ED47DB0F16D375D2D9D3EDDDE679 /* Pods-Finaljingjing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596B760D4DBC441379884AE1B4F6A024 /* Pods-Finaljingjing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52A68C99B52933059EAE040227F9587C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5A5A7425E9C3E01DF88D1CFB375DC095 /* Pods-FinaljingjingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF15B7A9896A83E7F8A55DDF388B357F /* Pods-FinaljingjingTests-dummy.m */; };
+		5D043141CC2DA5DF01D3FF3BFFCBAA7F /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E826DAD5C574D49073D431A95A52C55 /* UIImageView+SwiftyGif.swift */; };
+		6A72B739D52D83ECFF7E96AFF26AB577 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22B8A6B950B0F58966CCA3DDF1EFB4 /* UIImage+SwiftyGif.swift */; };
+		7F78B453005A35866B7E9BB493F5890E /* Pods-FinaljingjingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E10B7372B9C97EDAEC5B425C2F76284 /* Pods-FinaljingjingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88004B9D8D9FC6396AD551ECE24D7A4F /* Pods-Finaljingjing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 402D612B5DBF1A63101780E7359EFBD0 /* Pods-Finaljingjing-dummy.m */; };
+		9767968497AF291011196526808C3215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		999253842B8244633FEF4EADCF8B7B9A /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B81A043A179AEAA591C4C0CE9304AC6B /* SwiftyGif-dummy.m */; };
+		9D45243582C808F6F88C78F4540CC4B9 /* ObjcAssociatedWeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15C1FCF35738937CD215F8532323B0F /* ObjcAssociatedWeakObject.swift */; };
+		A4659B725777EB2731C4F056A59BE83D /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6F772805253D38FD3B9178D6B01701 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9B2111B50CAB17C92CC286E436CF3FF /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C212D7FC2A0DC6301076388CF132D05 /* NSImageView+SwiftyGif.swift */; };
+		CDE412ABC0DE71D6E1E9F25BEA981463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		DE20025E65378775662C9C32D18A931F /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A419029269A2B3F1A9516698669DA /* SwiftyGifManager.swift */; };
+		F41CA210E56B3043EDD75C851FB4061B /* SwiftyGif-SwiftyGif in Resources */ = {isa = PBXBuildFile; fileRef = 0A37DE9A55F6CEA1AF18BDEF878BF1F5 /* SwiftyGif-SwiftyGif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4A503D96C559EE8240A4278E6CD1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1692FB104E80953DA235A4A8496909;
+			remoteInfo = "Pods-Finaljingjing";
+		};
+		BD42B6B05D34DA710DC1874ECCC52F1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		FAB29805E9C7628E4C16B6D3C0107047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176E48377247D5011E906CB1A39E71BA;
+			remoteInfo = "SwiftyGif-SwiftyGif";
+		};
+		FE6B742C8D75F5B2409457EE9ED65426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A1B89D95E2B9B52D033D3820F4C382 /* Pods-Finaljingjing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finaljingjing-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A37DE9A55F6CEA1AF18BDEF878BF1F5 /* SwiftyGif-SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SwiftyGif-SwiftyGif"; path = SwiftyGif.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A72ADF8EF392EFF42707C961DD3E207 /* Pods-Finaljingjing-FinaljingjingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Finaljingjing-FinaljingjingUITests-dummy.m"; sourceTree = "<group>"; };
+		0BDB7374B38095BA8D2B33608BD791AF /* Pods-Finaljingjing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Finaljingjing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E826DAD5C574D49073D431A95A52C55 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		1D5295D8E97E1F36FEE23E7EA5DAE016 /* Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D83494C2220E2A3835371196FC5BB71 /* Pods-FinaljingjingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinaljingjingTests-Info.plist"; sourceTree = "<group>"; };
+		2DDE90A3D69821791A73A8368CB54A68 /* Pods-Finaljingjing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Finaljingjing.modulemap"; sourceTree = "<group>"; };
+		33DD3CA959BCDACD4EF9DF99FC753F99 /* Pods-FinaljingjingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinaljingjingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34093780EFED0B839E8EF963D8F85403 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		3528AF81686B8B0379A7AD6304E0F467 /* Pods-Finaljingjing-FinaljingjingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Finaljingjing-FinaljingjingUITests-umbrella.h"; sourceTree = "<group>"; };
+		35D457472BA4D8FF31511446ECA7018C /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		36D20D7F9B5F1584044B1759C855D9F6 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SwiftyGif/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		402D612B5DBF1A63101780E7359EFBD0 /* Pods-Finaljingjing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Finaljingjing-dummy.m"; sourceTree = "<group>"; };
+		434AC7E862E677FE285AA14404A76A5A /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		453E79024106C74B0C2FB8E65486BF5F /* Pods-Finaljingjing-FinaljingjingUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Finaljingjing-FinaljingjingUITests"; path = Pods_Finaljingjing_FinaljingjingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498A419029269A2B3F1A9516698669DA /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		4C212D7FC2A0DC6301076388CF132D05 /* NSImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+SwiftyGif.swift"; path = "SwiftyGif/NSImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		4E6395BBB2DFC49B9D005142E48180C6 /* Pods-Finaljingjing-FinaljingjingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finaljingjing-FinaljingjingUITests-Info.plist"; sourceTree = "<group>"; };
+		4F6F772805253D38FD3B9178D6B01701 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		596B760D4DBC441379884AE1B4F6A024 /* Pods-Finaljingjing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Finaljingjing-umbrella.h"; sourceTree = "<group>"; };
+		69FA8B876420B0345EEBB7A2BBE5A637 /* Pods-Finaljingjing-FinaljingjingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finaljingjing-FinaljingjingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CAE3F7D2EE3248F808E3CCB3D72F5CE /* Pods-Finaljingjing */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Finaljingjing"; path = Pods_Finaljingjing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779650DC472495AD153179E86B153731 /* Pods-FinaljingjingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinaljingjingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA7CD205A76F14B75E562683A7347B8 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		86A58262904F5EF3EF28B4CE8AADAA5C /* NSImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+SwiftyGif.swift"; path = "SwiftyGif/NSImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		86B34471D1050E9E665F4FAA43526D9B /* Pods-Finaljingjing-FinaljingjingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finaljingjing-FinaljingjingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		874D51D88549AC8BFB29B9C946521807 /* Pods-FinaljingjingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinaljingjingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3297D9C8F16732D7289BB4485B2C2F /* Pods-FinaljingjingTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FinaljingjingTests"; path = Pods_FinaljingjingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902B65D993B7FA72CA3FAB1ED2AC4101 /* ResourceBundle-SwiftyGif-SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftyGif-SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E10B7372B9C97EDAEC5B425C2F76284 /* Pods-FinaljingjingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FinaljingjingTests-umbrella.h"; sourceTree = "<group>"; };
+		A0A373860AFEEC6CA5AFB57B138CC361 /* Pods-Finaljingjing-FinaljingjingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finaljingjing-FinaljingjingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A95F8CF8659A6A376E6FBB5C16206802 /* Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE22B8A6B950B0F58966CCA3DDF1EFB4 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		B15C1FCF35738937CD215F8532323B0F /* ObjcAssociatedWeakObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjcAssociatedWeakObject.swift; path = SwiftyGif/ObjcAssociatedWeakObject.swift; sourceTree = "<group>"; };
+		B3DC0D8F413D070435475D43AF5F1CE1 /* Pods-Finaljingjing-FinaljingjingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Finaljingjing-FinaljingjingUITests.modulemap"; sourceTree = "<group>"; };
+		B81A043A179AEAA591C4C0CE9304AC6B /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		BC95A7132B292D873124EC5498F115D1 /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		C920DFA662D5A5831570FDE9E13F65A2 /* Pods-Finaljingjing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finaljingjing.release.xcconfig"; sourceTree = "<group>"; };
+		CED818DB0BE407DAB2836551C9E70DF8 /* Pods-FinaljingjingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinaljingjingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE91A4B8FFC56A4B22A7335F97C1326 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		DF15B7A9896A83E7F8A55DDF388B357F /* Pods-FinaljingjingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinaljingjingTests-dummy.m"; sourceTree = "<group>"; };
+		E12368135A748630C7CF9272AD09A302 /* Pods-Finaljingjing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finaljingjing.debug.xcconfig"; sourceTree = "<group>"; };
+		E23DEF9C61D1DE026171F54FCA1233A7 /* Pods-Finaljingjing-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finaljingjing-Info.plist"; sourceTree = "<group>"; };
+		ECDCA256D1D9534C609E291870DFC16D /* Pods-FinaljingjingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FinaljingjingTests.modulemap"; sourceTree = "<group>"; };
+		F975A35E366EA22FA8BEF5423F34E168 /* Pods-Finaljingjing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finaljingjing-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D9B0626D662E6E6A2870530302D706B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A68C99B52933059EAE040227F9587C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E9A5C96AF33EE582569DD1BB78DC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9767968497AF291011196526808C3215 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AD4AE119250DE068268EFE0A0A8DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABF927E9C3D6229823AEC42F16356E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2A21ADFC42D84AB0ACE96CAFC83943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15E0C070D6FE8C16283548D8B9A4F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE412ABC0DE71D6E1E9F25BEA981463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427E0339D72DCF08F73362AAF2BBC2A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36D20D7F9B5F1584044B1759C855D9F6 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C333003C69FDAB10463160D29BD663A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				516B8C726E7CB8367CFB6EDD78632810 /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		516B8C726E7CB8367CFB6EDD78632810 /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				86A58262904F5EF3EF28B4CE8AADAA5C /* NSImage+SwiftyGif.swift */,
+				4C212D7FC2A0DC6301076388CF132D05 /* NSImageView+SwiftyGif.swift */,
+				B15C1FCF35738937CD215F8532323B0F /* ObjcAssociatedWeakObject.swift */,
+				4F6F772805253D38FD3B9178D6B01701 /* SwiftyGif.h */,
+				498A419029269A2B3F1A9516698669DA /* SwiftyGifManager.swift */,
+				AE22B8A6B950B0F58966CCA3DDF1EFB4 /* UIImage+SwiftyGif.swift */,
+				0E826DAD5C574D49073D431A95A52C55 /* UIImageView+SwiftyGif.swift */,
+				427E0339D72DCF08F73362AAF2BBC2A6 /* Resources */,
+				CE720D6E5716EB0ED4317B5E37FF592F /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		7C2A1056CF286499178562377CB8A458 /* Pods-Finaljingjing */ = {
+			isa = PBXGroup;
+			children = (
+				2DDE90A3D69821791A73A8368CB54A68 /* Pods-Finaljingjing.modulemap */,
+				0BDB7374B38095BA8D2B33608BD791AF /* Pods-Finaljingjing-acknowledgements.markdown */,
+				06A1B89D95E2B9B52D033D3820F4C382 /* Pods-Finaljingjing-acknowledgements.plist */,
+				402D612B5DBF1A63101780E7359EFBD0 /* Pods-Finaljingjing-dummy.m */,
+				F975A35E366EA22FA8BEF5423F34E168 /* Pods-Finaljingjing-frameworks.sh */,
+				E23DEF9C61D1DE026171F54FCA1233A7 /* Pods-Finaljingjing-Info.plist */,
+				596B760D4DBC441379884AE1B4F6A024 /* Pods-Finaljingjing-umbrella.h */,
+				E12368135A748630C7CF9272AD09A302 /* Pods-Finaljingjing.debug.xcconfig */,
+				C920DFA662D5A5831570FDE9E13F65A2 /* Pods-Finaljingjing.release.xcconfig */,
+			);
+			name = "Pods-Finaljingjing";
+			path = "Target Support Files/Pods-Finaljingjing";
+			sourceTree = "<group>";
+		};
+		9C9CF8EB5B258CFE607AD05DABC9ED72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CAE3F7D2EE3248F808E3CCB3D72F5CE /* Pods-Finaljingjing */,
+				453E79024106C74B0C2FB8E65486BF5F /* Pods-Finaljingjing-FinaljingjingUITests */,
+				8C3297D9C8F16732D7289BB4485B2C2F /* Pods-FinaljingjingTests */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */,
+				0A37DE9A55F6CEA1AF18BDEF878BF1F5 /* SwiftyGif-SwiftyGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3BFF4FC03F38013E3D2E41453A09ED1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2A1056CF286499178562377CB8A458 /* Pods-Finaljingjing */,
+				CB7942FEFB9070A52CEF186E5E7AAAC8 /* Pods-Finaljingjing-FinaljingjingUITests */,
+				CC2F6DFB8F204E683405D82FD35CC247 /* Pods-FinaljingjingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB7942FEFB9070A52CEF186E5E7AAAC8 /* Pods-Finaljingjing-FinaljingjingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DC0D8F413D070435475D43AF5F1CE1 /* Pods-Finaljingjing-FinaljingjingUITests.modulemap */,
+				A95F8CF8659A6A376E6FBB5C16206802 /* Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.markdown */,
+				1D5295D8E97E1F36FEE23E7EA5DAE016 /* Pods-Finaljingjing-FinaljingjingUITests-acknowledgements.plist */,
+				0A72ADF8EF392EFF42707C961DD3E207 /* Pods-Finaljingjing-FinaljingjingUITests-dummy.m */,
+				86B34471D1050E9E665F4FAA43526D9B /* Pods-Finaljingjing-FinaljingjingUITests-frameworks.sh */,
+				4E6395BBB2DFC49B9D005142E48180C6 /* Pods-Finaljingjing-FinaljingjingUITests-Info.plist */,
+				3528AF81686B8B0379A7AD6304E0F467 /* Pods-Finaljingjing-FinaljingjingUITests-umbrella.h */,
+				A0A373860AFEEC6CA5AFB57B138CC361 /* Pods-Finaljingjing-FinaljingjingUITests.debug.xcconfig */,
+				69FA8B876420B0345EEBB7A2BBE5A637 /* Pods-Finaljingjing-FinaljingjingUITests.release.xcconfig */,
+			);
+			name = "Pods-Finaljingjing-FinaljingjingUITests";
+			path = "Target Support Files/Pods-Finaljingjing-FinaljingjingUITests";
+			sourceTree = "<group>";
+		};
+		CC2F6DFB8F204E683405D82FD35CC247 /* Pods-FinaljingjingTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDCA256D1D9534C609E291870DFC16D /* Pods-FinaljingjingTests.modulemap */,
+				33DD3CA959BCDACD4EF9DF99FC753F99 /* Pods-FinaljingjingTests-acknowledgements.markdown */,
+				779650DC472495AD153179E86B153731 /* Pods-FinaljingjingTests-acknowledgements.plist */,
+				DF15B7A9896A83E7F8A55DDF388B357F /* Pods-FinaljingjingTests-dummy.m */,
+				1D83494C2220E2A3835371196FC5BB71 /* Pods-FinaljingjingTests-Info.plist */,
+				9E10B7372B9C97EDAEC5B425C2F76284 /* Pods-FinaljingjingTests-umbrella.h */,
+				874D51D88549AC8BFB29B9C946521807 /* Pods-FinaljingjingTests.debug.xcconfig */,
+				CED818DB0BE407DAB2836551C9E70DF8 /* Pods-FinaljingjingTests.release.xcconfig */,
+			);
+			name = "Pods-FinaljingjingTests";
+			path = "Target Support Files/Pods-FinaljingjingTests";
+			sourceTree = "<group>";
+		};
+		CE720D6E5716EB0ED4317B5E37FF592F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				902B65D993B7FA72CA3FAB1ED2AC4101 /* ResourceBundle-SwiftyGif-SwiftyGif-Info.plist */,
+				35D457472BA4D8FF31511446ECA7018C /* SwiftyGif.modulemap */,
+				B81A043A179AEAA591C4C0CE9304AC6B /* SwiftyGif-dummy.m */,
+				7FA7CD205A76F14B75E562683A7347B8 /* SwiftyGif-Info.plist */,
+				434AC7E862E677FE285AA14404A76A5A /* SwiftyGif-prefix.pch */,
+				BC95A7132B292D873124EC5498F115D1 /* SwiftyGif-umbrella.h */,
+				DCE91A4B8FFC56A4B22A7335F97C1326 /* SwiftyGif.debug.xcconfig */,
+				34093780EFED0B839E8EF963D8F85403 /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4C333003C69FDAB10463160D29BD663A /* Pods */,
+				9C9CF8EB5B258CFE607AD05DABC9ED72 /* Products */,
+				C3BFF4FC03F38013E3D2E41453A09ED1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DF7FCACCF6F4E1766E31538CEAA0F74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A16E9B81153EC301286D2F9F315EA9 /* Pods-Finaljingjing-FinaljingjingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E66106BC4410BA303D08CB4FC9F0F4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F78B453005A35866B7E9BB493F5890E /* Pods-FinaljingjingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB75B26B9F9A62C883A50284A5EDAB2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4659B725777EB2731C4F056A59BE83D /* SwiftyGif.h in Headers */,
+				21522E8BAAE97772E92F3943202B758C /* SwiftyGif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41038518AAE6A13E8FDEDB55BA162A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C5ED47DB0F16D375D2D9D3EDDDE679 /* Pods-Finaljingjing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D588C60C506354EE3F6D13A8868045B9 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				AB75B26B9F9A62C883A50284A5EDAB2F /* Headers */,
+				06D3748D1CC9BB5E55188A796925DC96 /* Sources */,
+				B1AD4AE119250DE068268EFE0A0A8DA4 /* Frameworks */,
+				120267E61A5D2E18062A875146665F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89B52E636D7F6ECEBC67C680D7D19DC1 /* PBXTargetDependency */,
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */;
+			productType = "com.apple.product-type.framework";
+		};
+		176E48377247D5011E906CB1A39E71BA /* SwiftyGif-SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEB3CD03DF9C8BDCA17F5A08BB07E73 /* Build configuration list for PBXNativeTarget "SwiftyGif-SwiftyGif" */;
+			buildPhases = (
+				8D5D106211D3AD81C265334F1C8EB9EE /* Sources */,
+				EA2A21ADFC42D84AB0ACE96CAFC83943 /* Frameworks */,
+				A7CA42DE64CA5464BF7154C9186D52EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyGif-SwiftyGif";
+			productName = SwiftyGif;
+			productReference = 0A37DE9A55F6CEA1AF18BDEF878BF1F5 /* SwiftyGif-SwiftyGif */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5996529B3513CB030DE7112B52AB1D56 /* Pods-FinaljingjingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9766CBBA94A264E1AEE6714E64479132 /* Build configuration list for PBXNativeTarget "Pods-FinaljingjingTests" */;
+			buildPhases = (
+				6E66106BC4410BA303D08CB4FC9F0F4D /* Headers */,
+				F64DEAB84C5E0FC163AA2A5281824324 /* Sources */,
+				F15E0C070D6FE8C16283548D8B9A4F03 /* Frameworks */,
+				31CB2AC4998D7EE84A482D7333013764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E68321879DB67AE2A43FF1D3734BDA /* PBXTargetDependency */,
+			);
+			name = "Pods-FinaljingjingTests";
+			productName = Pods_FinaljingjingTests;
+			productReference = 8C3297D9C8F16732D7289BB4485B2C2F /* Pods-FinaljingjingTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4AF51A92C21CD956CD7A3EDD039A911 /* Pods-Finaljingjing-FinaljingjingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DDE6A25D4BB207C276CB47BEE5E936 /* Build configuration list for PBXNativeTarget "Pods-Finaljingjing-FinaljingjingUITests" */;
+			buildPhases = (
+				2DF7FCACCF6F4E1766E31538CEAA0F74 /* Headers */,
+				866062660A697ED57CF8165530EF988A /* Sources */,
+				48E9A5C96AF33EE582569DD1BB78DC29 /* Frameworks */,
+				6A3B5973D92F832B8C7C3D224CA871F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82483094D1AEC78C877D1DAA3472DB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Finaljingjing-FinaljingjingUITests";
+			productName = Pods_Finaljingjing_FinaljingjingUITests;
+			productReference = 453E79024106C74B0C2FB8E65486BF5F /* Pods-Finaljingjing-FinaljingjingUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA1692FB104E80953DA235A4A8496909 /* Pods-Finaljingjing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F8958F8F7A08228BE20EDA098C0690 /* Build configuration list for PBXNativeTarget "Pods-Finaljingjing" */;
+			buildPhases = (
+				F41038518AAE6A13E8FDEDB55BA162A3 /* Headers */,
+				F6196E14AB7AAFB206B1496F6BE145F2 /* Sources */,
+				1D9B0626D662E6E6A2870530302D706B /* Frameworks */,
+				7C99FC1C0CECF54B49538C890B0918D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1BBBC3572C033199823F901826710AA /* PBXTargetDependency */,
+			);
+			name = "Pods-Finaljingjing";
+			productName = Pods_Finaljingjing;
+			productReference = 6CAE3F7D2EE3248F808E3CCB3D72F5CE /* Pods-Finaljingjing */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9C9CF8EB5B258CFE607AD05DABC9ED72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1692FB104E80953DA235A4A8496909 /* Pods-Finaljingjing */,
+				F4AF51A92C21CD956CD7A3EDD039A911 /* Pods-Finaljingjing-FinaljingjingUITests */,
+				5996529B3513CB030DE7112B52AB1D56 /* Pods-FinaljingjingTests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+				176E48377247D5011E906CB1A39E71BA /* SwiftyGif-SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120267E61A5D2E18062A875146665F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41CA210E56B3043EDD75C851FB4061B /* SwiftyGif-SwiftyGif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31CB2AC4998D7EE84A482D7333013764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3B5973D92F832B8C7C3D224CA871F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C99FC1C0CECF54B49538C890B0918D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CA42DE64CA5464BF7154C9186D52EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0277B4DF47A8413385B09EC6BFBFD821 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D3748D1CC9BB5E55188A796925DC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A92BD6A7CC8DE76494A085164FE472 /* NSImage+SwiftyGif.swift in Sources */,
+				C9B2111B50CAB17C92CC286E436CF3FF /* NSImageView+SwiftyGif.swift in Sources */,
+				9D45243582C808F6F88C78F4540CC4B9 /* ObjcAssociatedWeakObject.swift in Sources */,
+				999253842B8244633FEF4EADCF8B7B9A /* SwiftyGif-dummy.m in Sources */,
+				DE20025E65378775662C9C32D18A931F /* SwiftyGifManager.swift in Sources */,
+				6A72B739D52D83ECFF7E96AFF26AB577 /* UIImage+SwiftyGif.swift in Sources */,
+				5D043141CC2DA5DF01D3FF3BFFCBAA7F /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		866062660A697ED57CF8165530EF988A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CF8801756AD09572F2467DA7B90BE9 /* Pods-Finaljingjing-FinaljingjingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5D106211D3AD81C265334F1C8EB9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6196E14AB7AAFB206B1496F6BE145F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88004B9D8D9FC6396AD551ECE24D7A4F /* Pods-Finaljingjing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64DEAB84C5E0FC163AA2A5281824324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5A7425E9C3E01DF88D1CFB375DC095 /* Pods-FinaljingjingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E68321879DB67AE2A43FF1D3734BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Finaljingjing";
+			target = FA1692FB104E80953DA235A4A8496909 /* Pods-Finaljingjing */;
+			targetProxy = 2B4A503D96C559EE8240A4278E6CD1DC /* PBXContainerItemProxy */;
+		};
+		89B52E636D7F6ECEBC67C680D7D19DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyGif-SwiftyGif";
+			target = 176E48377247D5011E906CB1A39E71BA /* SwiftyGif-SwiftyGif */;
+			targetProxy = FAB29805E9C7628E4C16B6D3C0107047 /* PBXContainerItemProxy */;
+		};
+		B82483094D1AEC78C877D1DAA3472DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = FE6B742C8D75F5B2409457EE9ED65426 /* PBXContainerItemProxy */;
+		};
+		D1BBBC3572C033199823F901826710AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = BD42B6B05D34DA710DC1874ECCC52F1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1694820F17142A3BE84B70D0ABA64857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A373860AFEEC6CA5AFB57B138CC361 /* Pods-Finaljingjing-FinaljingjingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finaljingjing-FinaljingjingUITests/Pods-Finaljingjing-FinaljingjingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finaljingjing-FinaljingjingUITests/Pods-Finaljingjing-FinaljingjingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18B6B468F6D67AE545E38F6632F62189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874D51D88549AC8BFB29B9C946521807 /* Pods-FinaljingjingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinaljingjingTests/Pods-FinaljingjingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinaljingjingTests/Pods-FinaljingjingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A4BC382E1C8BD6FCC22765FC430B24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34093780EFED0B839E8EF963D8F85403 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59E8734DA70715406493CA912F854277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A49448602EC1B17D12ADB02D6EE73BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6A2CB0EE99FE5C75D2CB1835FB5FEAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED818DB0BE407DAB2836551C9E70DF8 /* Pods-FinaljingjingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-FinaljingjingTests/Pods-FinaljingjingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FinaljingjingTests/Pods-FinaljingjingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A147DFA38CCDAC377ADA5831E4D08AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FA8B876420B0345EEBB7A2BBE5A637 /* Pods-Finaljingjing-FinaljingjingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finaljingjing-FinaljingjingUITests/Pods-Finaljingjing-FinaljingjingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finaljingjing-FinaljingjingUITests/Pods-Finaljingjing-FinaljingjingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE028387D59A4187765459621096CAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C920DFA662D5A5831570FDE9E13F65A2 /* Pods-Finaljingjing.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finaljingjing/Pods-Finaljingjing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finaljingjing/Pods-Finaljingjing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF5D8F5EDFD7EC69F4B2A7C1C1D4E832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34093780EFED0B839E8EF963D8F85403 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyGif";
+				IBSC_MODULE = SwiftyGif;
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/ResourceBundle-SwiftyGif-SwiftyGif-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D8A9C5C8C916A23763E255F7B1B5A01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE91A4B8FFC56A4B22A7335F97C1326 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftyGif";
+				IBSC_MODULE = SwiftyGif;
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/ResourceBundle-SwiftyGif-SwiftyGif-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E8745CB3BBC214376F1F0348A14647E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12368135A748630C7CF9272AD09A302 /* Pods-Finaljingjing.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finaljingjing/Pods-Finaljingjing-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finaljingjing/Pods-Finaljingjing.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3A4D0E0A6B59FA8CF27B4FD7E57CF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE91A4B8FFC56A4B22A7335F97C1326 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E8734DA70715406493CA912F854277 /* Debug */,
+				5A49448602EC1B17D12ADB02D6EE73BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8958F8F7A08228BE20EDA098C0690 /* Build configuration list for PBXNativeTarget "Pods-Finaljingjing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8745CB3BBC214376F1F0348A14647E5 /* Debug */,
+				BE028387D59A4187765459621096CAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9766CBBA94A264E1AEE6714E64479132 /* Build configuration list for PBXNativeTarget "Pods-FinaljingjingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B6B468F6D67AE545E38F6632F62189 /* Debug */,
+				6A2CB0EE99FE5C75D2CB1835FB5FEAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DDE6A25D4BB207C276CB47BEE5E936 /* Build configuration list for PBXNativeTarget "Pods-Finaljingjing-FinaljingjingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1694820F17142A3BE84B70D0ABA64857 /* Debug */,
+				A147DFA38CCDAC377ADA5831E4D08AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D588C60C506354EE3F6D13A8868045B9 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4D0E0A6B59FA8CF27B4FD7E57CF84 /* Debug */,
+				2A4BC382E1C8BD6FCC22765FC430B24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEB3CD03DF9C8BDCA17F5A08BB07E73 /* Build configuration list for PBXNativeTarget "SwiftyGif-SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A9C5C8C916A23763E255F7B1B5A01B /* Debug */,
+				BF5D8F5EDFD7EC69F4B2A7C1C1D4E832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
